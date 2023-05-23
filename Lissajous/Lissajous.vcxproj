@@ -140,10 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Curve.cpp" />
+    <ClCompile Include="FourierCircle.cpp" />
+    <ClCompile Include="Fourier.cpp" />
+    <ClCompile Include="LissajousCurve.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThickLine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Curve.h" />
+    <ClInclude Include="FourierCircle.h" />
+    <ClInclude Include="Fourier.h" />
+    <ClInclude Include="LissajousCurve.h" />
+    <ClInclude Include="ThickLine.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
