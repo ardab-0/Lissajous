@@ -3,10 +3,10 @@
 
 #include <SFML/Graphics.hpp>
 #include <array>
-#include "Curve.h"
-#include "ThickLine.hpp"
-#include "LissajousCurve.h"
-#include "Fourier.h"
+#include "Lissajous/Curve.h"
+#include "Thickline/ThickLine.hpp"
+#include "Lissajous/LissajousCurve.h"
+#include "Fourier/Fourier.h"
 
 
 int main()
@@ -21,10 +21,10 @@ int main()
 
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Curve", sf::Style::Default, settings);
 
-	LissajousCurve lissajous(&window, 100, 72);
+	//LissajousCurve lissajous(&window, 100, 72);
 	
 
-	Fourier fourier(&window, 10, 200, 36, sf::Vector2f(400, 400));
+	Fourier fourier(&window, 3, 200, 36, sf::Vector2f(400, 400));
 
 	while (window.isOpen())
 	{

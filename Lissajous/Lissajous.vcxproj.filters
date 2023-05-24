@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Curve.cpp">
+    <ClCompile Include="Lissajous\Curve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ThickLine.cpp">
+    <ClCompile Include="Thickline\ThickLine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LissajousCurve.cpp">
+    <ClCompile Include="Lissajous\LissajousCurve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Fourier.cpp">
+    <ClCompile Include="Fourier\Fourier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FourierCircle.cpp">
+    <ClCompile Include="Fourier\FourierCircle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Curve.h">
+    <ClInclude Include="Lissajous\Curve.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThickLine.hpp">
+    <ClInclude Include="Thickline\ThickLine.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LissajousCurve.h">
+    <ClInclude Include="Lissajous\LissajousCurve.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Fourier.h">
+    <ClInclude Include="Fourier\Fourier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FourierCircle.h">
+    <ClInclude Include="Fourier\FourierCircle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

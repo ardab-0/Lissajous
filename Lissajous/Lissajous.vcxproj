@@ -139,19 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Curve.cpp" />
-    <ClCompile Include="FourierCircle.cpp" />
-    <ClCompile Include="Fourier.cpp" />
-    <ClCompile Include="LissajousCurve.cpp" />
+    <ClCompile Include="Lissajous\Curve.cpp" />
+    <ClCompile Include="Fourier\FourierCircle.cpp" />
+    <ClCompile Include="Fourier\Fourier.cpp" />
+    <ClCompile Include="Lissajous\LissajousCurve.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ThickLine.cpp" />
+    <ClCompile Include="Thickline\ThickLine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Curve.h" />
-    <ClInclude Include="FourierCircle.h" />
-    <ClInclude Include="Fourier.h" />
-    <ClInclude Include="LissajousCurve.h" />
-    <ClInclude Include="ThickLine.hpp" />
+    <ClInclude Include="Lissajous\Curve.h" />
+    <ClInclude Include="Fourier\FourierCircle.h" />
+    <ClInclude Include="Fourier\Fourier.h" />
+    <ClInclude Include="Lissajous\LissajousCurve.h" />
+    <ClInclude Include="Thickline\ThickLine.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
